@@ -13,7 +13,7 @@ phases:
         mkdir zap
         tar -xvf ZAP_2.11.1_Linux.tar.gz
         cd ZAP_2.11.1
-        ./zap.sh -cmd -quickurl http://54.164.111.230:8080 -quickprogress -quickout ../zap_report.html 
+        ./zap.sh -cmd -quickurl http://$IP:8080 -quickprogress -quickout ../zap_report.html 
         
 #Storing DAST Reports in S3 bucket
 
